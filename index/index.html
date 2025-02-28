@@ -4,43 +4,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Practice 2s</title>
+  <title>Calculator</title>
   <link rel="stylesheet" href="/style/style.css">
 </head>
 
 <body>
   <div class="calculator">
-    
+
     <div class="input-container">
-      <input class="input-number" type="number" dir="rtl">
+      <input class="input-number" type="text" placeholder="0">
     </div>
     <div class="main-calc-container">
       <div class="left-sec">
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button>00</button>
-        <button>0</button>
-        <button>.</button>
+        <button class="keys">1</button>
+        <button class="keys">2</button>
+        <button class="keys">3</button>
+        <button class="keys">4</button>
+        <button class="keys">5</button>
+        <button class="keys">6</button>
+        <button class="keys">7</button>
+        <button class="keys">8</button>
+        <button class="keys">9</button>
+        <button class="keys">00</button>
+        <button class="keys">0</button>
+        <button class="keys">.</button>
       </div>
-      <div class="right-sec">
-        <button>DE</button>
-        <button>AC</button>
-        <button>*</button>
-        <button>/</button>
-        <button>+</button>
-        <button>-</button>
-        <button>=</button>
+      <div class="mid-sec-left">
+        <div class="right-sec">
+          <button class="keys">DE</button>
+          <button class="keys">AC</button>
+          <button class="keys">*</button>
+          <button class="keys">/</button>
+          <button class="keys">+</button>
+          <button class="keys">-</button>
+        </div>
+          <button class="keys equal-btn">=</button>
       </div>
+
     </div>
-  </div>
-  <script src="/js/index.js"></script>
+    <script src="/js/index.js"></script>
 </body>
 
 </html>

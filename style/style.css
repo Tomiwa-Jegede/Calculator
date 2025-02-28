@@ -14,6 +14,9 @@ input{
   outline:none;
   background-color: #dcd9d9;
 }
+input::placeholder{
+color:black
+}
 .input-container{
   display:flex;
   align-items:center;
@@ -25,7 +28,7 @@ input{
   display:flex;
   flex-direction:column;
   background:#152944;
-  padding: 5rem .2rem 3rem;
+  padding: 5rem 0 3rem;
   border-radius:20px;
   align-items:center;
   justify-content:center;
@@ -34,14 +37,12 @@ input{
   display:flex;
   grid-template-columns: repeat(2,1fr);
   margin-top:2rem;
-
 }
 .right-sec{
   display:grid;
   grid-template-columns: repeat(2,1fr);
   width:100%;
   grid-gap:.3rem;
-  margin-left:5px;
 }
 .left-sec{
   display:grid;
@@ -58,4 +59,11 @@ button{
 }
 input::-webkit-inner-spin-button{
 -webkit-appearance:none;
+}
+.mid-sec-left{
+  margin-left:5px;
+}
+.equal-btn{
+width:100%;
+margin-top:5px;
 }
